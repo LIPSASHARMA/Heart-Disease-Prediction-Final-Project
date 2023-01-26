@@ -63,7 +63,7 @@ The Entity Relationship Diagram is created based on the heart information of the
 SQL ERD: https://github.com/akhue02/final-project-/blob/main/HeartData_ERD_FinalProject.sql
 
 
-![ScreenShot](https://github.com/akhue02/final-project-/blob/main/ERD_PostGresSQL_Snapshot.png)
+![ScreenShot](https://github.com/akhue02/final-project/blob/main/ERD_PostgreSQL_Snapshot.png)
 
 
 ### Tableau 
