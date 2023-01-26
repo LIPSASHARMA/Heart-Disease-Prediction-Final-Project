@@ -15,6 +15,7 @@ The objective of this project is to address the following questions through our 
 - To determine which gender is highly susceptible to heart diasease
 - To determine heart disease over chest pain type
 - To determine correlation between the factors
+- To determine MaxHR by age
 
 
 The term “heart disease” refers to several types of heart conditions. The most common type of heart disease is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
@@ -48,6 +49,9 @@ HeartDisease: output class [1: More risk, 0: Less risk]
 ## Entity Relationship Diagram
 
 The Entity Relationship Diagram is created based on the heart information of the patient. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values.
+
+SQL ERD: https://github.com/akhue02/final-project-/blob/main/HeartData_ERD_FinalProject.sql
+
 
 ![ScreenShot](https://github.com/akhue02/final-project-/blob/main/ERD_PostGresSQL_Snapshot.png)
 
