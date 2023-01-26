@@ -5,10 +5,6 @@ The purpose of this project is to predict patients with high risk of heart disea
 
 The term “heart disease” refers to several types of heart conditions. The most common type of heart disease is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
 
-## Entity Relationship Diagram
-
-The Entity Relationship Diagram is created based on the heart information of the patient. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values.
-
 ### Attribute Information:
 
 Age: age of the patient [years]
@@ -34,6 +30,14 @@ Oldpeak: oldpeak = ST [Numeric value measured in depression]
 ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 
 HeartDisease: output class [1: high risk, 0: low risk]
+
+## Entity Relationship Diagram
+
+The Entity Relationship Diagram is created based on the heart information of the patient. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values.
+
+
+### Tableau Link: https://public.tableau.com/app/profile/manish.thapa4247/viz/Heartrisk/HeartRisk_1?publish=yes
+
 
 
 ## Summary
