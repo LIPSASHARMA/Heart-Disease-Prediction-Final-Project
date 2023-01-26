@@ -1,8 +1,4 @@
-# final-project-Group-9 (Heart Disease Prediction)
-The purpose 
-    The purpose of this analysis is to predict heart disease and which factors will have relationship with heart disease. 
-Results 
-Summary 
+# final-project-
 
 ## Entity Relationship Diagram
 The Entity Relationship Diagram is created based on the heart information of the patient. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values.
