@@ -44,9 +44,11 @@ The Entity Relationship Diagram is created based on the heart information of the
 
 ### Tableau Link: https://public.tableau.com/app/profile/manish.thapa4247/viz/Heartrisk/HeartRisk_1?publish=yes
 
+### Data Exploration
+
 As part of the Data Exploration, the following steps were carried out:
 
-### Data Preprocessing
+#### Data Preprocessing
   The following steps were taken:
   * File was checked for any null values/empty columns
    Features and Target variables were identified. For this project, the feature vairables were Age, Sex, ChestPainType, RestingBP, Cholesteroll, FastingBS, RestingECG, MaxHR,, ExerciseAngina, OldPeak, ST_Slope. Target variable was Heart Disease.
@@ -76,7 +78,7 @@ least_relevant
  * Further MinMaxScaler was used to scale the data and the data was split into training and testing. 
 
 
-### Evaluation and Testing
+#### Evaluation and Testing
 
   * As part of the preliminary analysis, we used the RandomForestClassifier to calculate the accuracy score, confusion matrix an the classiication report. 
 
