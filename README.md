@@ -1,6 +1,14 @@
 # final-project-
+## Purpose
+
+The purpose of this project is to predict heart disease in certain set of patients
+
+## Summary
+
+The term “heart disease” refers to several types of heart conditions. The most common type of heart disease is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
 
 ## Entity Relationship Diagram
+
 The Entity Relationship Diagram is created based on the heart information of the patient. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values.
 
 ### Attribute Information:
