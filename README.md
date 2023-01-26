@@ -5,7 +5,17 @@
 # final-project-group-9 (Heart Disease Prediction)
 ## Purpose
 
-The purpose of this project is to predict patients with high risk of heart disease
+The purpose of this project is to predict patients with high risk of heart disease. 
+
+##Objective
+
+The objective of this project is to address the following questions through our analysis
+
+- To determine what age group of people are most likely to have heart disease
+- To determine which gender is highly susceptible to heart diasease
+- To determine heart disease over chest pain type
+- To determine correlation between the factors
+
 
 The term “heart disease” refers to several types of heart conditions. The most common type of heart disease is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
 
@@ -42,7 +52,14 @@ The Entity Relationship Diagram is created based on the heart information of the
 ![ScreenShot](https://github.com/akhue02/final-project-/blob/main/ERD_PostGresSQL_Snapshot.png)
 
 
-### Tableau Link: https://public.tableau.com/app/profile/manish.thapa4247/viz/Heartrisk/HeartRisk_1?publish=yes
+### Tableau 
+
+Based on our Tableau file, we have 3 main findings: 
+1. People aged between 50 and 60 are more likely to have heart disease; 
+2. Males are more likely to have heart disease than females; 
+3. Females aged 50 and 60 have the highest possibility to suffer from heart disease.
+
+Link: https://public.tableau.com/app/profile/manish.thapa4247/viz/Heartrisk/HeartRisk_1?publish=yes
 
 ### Data Exploration
 
