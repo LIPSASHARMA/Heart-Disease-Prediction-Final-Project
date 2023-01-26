@@ -84,10 +84,7 @@ least_relevant
 
  ![Results](https://github.com/akhue02/final-project-/blob/main/archive/Results.png)
 
- ### Summary
+ ## Summary
 
  Based on the analysis, we achieved high Precisiion, Recall and F1 scores which showcases that the model has almost been successful to achieve its intended target of 95% confidence interval. In this instance, the most importance score is the Recall score for Highrisk which is 0.93 which showcases that we had few wrongly diagnosed Actual High Risk cases which were Predicted low. Further evaluation of the dataset and more model choices needs to be made to achiveing our target. 
 
-
-## Summary
->>>>>>> 26e4405c98c45dcc66778bd6a533fe9f434b2f0a
