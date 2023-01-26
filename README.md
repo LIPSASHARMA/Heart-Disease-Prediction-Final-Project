@@ -1,9 +1,7 @@
 # final-project-
 ## Purpose
 
-The purpose of this project is to predict heart disease in certain set of patients
-
-## Summary
+The purpose of this project is to predict patients with high risk of heart disease
 
 The term “heart disease” refers to several types of heart conditions. The most common type of heart disease is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
 
@@ -35,4 +33,7 @@ Oldpeak: oldpeak = ST [Numeric value measured in depression]
 
 ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 
-HeartDisease: output class [1: heart disease, 0: Normal]
+HeartDisease: output class [1: high risk, 0: low risk]
+
+
+## Summary
