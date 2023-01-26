@@ -1,6 +1,6 @@
-# final-project-
+# final-project-Group-9 (Heart Disease Prediction)
 The purpose 
-    The purpose of this analysis is to predict heart risk and which factors will have relationship with heart disease. 
+    The purpose of this analysis is to predict heart disease and which factors will have relationship with heart disease. 
 Results 
 Summary 
 
