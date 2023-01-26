@@ -35,6 +35,8 @@ HeartDisease: output class [1: high risk, 0: low risk]
 
 The Entity Relationship Diagram is created based on the heart information of the patient. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values.
 
+![ScreenShot](https://github.com/akhue02/final-project-/blob/main/ERD_PostGresSQL_Snapshot.png)
+
 
 ### Tableau Link: https://public.tableau.com/app/profile/manish.thapa4247/viz/Heartrisk/HeartRisk_1?publish=yes
 
