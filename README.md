@@ -3,6 +3,10 @@
  
 =======
 # final-project-group-9 (Heart Disease Prediction)
+
+## Introduction
+
+The term “heart disease” refers to several types of heart conditions. The most common type is Cardiovascular diseases (CVDs) which is the number one cause of death globally with 17.9 million death cases each year. CVDs are concertedly contributed by hypertension, diabetes, overweight and unhealthy lifestyles. CAD affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
 ## Purpose
 
 The purpose of this project is to predict patients with high risk of heart disease. 
@@ -17,10 +21,9 @@ The objective of this project is to address the following questions through our 
 - To determine correlation between the factors
 - To determine MaxHR by age
 
+### Attribute Information: 
 
-The term “heart disease” refers to several types of heart conditions. The most common type of heart disease is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
-
-### Attribute Information:
+The dataset is composed of 11 attributes(columns) and 918 observations
 
 Age: age of the patient [years]
 
@@ -44,7 +47,9 @@ Oldpeak: oldpeak = ST [Numeric value measured in depression]
 
 ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 
-HeartDisease: output class [1: More risk, 0: Less risk]
+HeartDisease: output class [1: High risk, 0: Low risk]
+
+## Dataset source: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?select=heart.csv
 
 ## Entity Relationship Diagram
 
