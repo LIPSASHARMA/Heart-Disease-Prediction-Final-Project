@@ -7,7 +7,7 @@
 # final-project-group-9 (Heart Disease Prediction)
 
 
-![ScreenShot](https://github.com/akhue02/final-project/blob/main/archive/anatomy-of-human-heart-picture.jpg)
+![ScreenShot](https://github.com/akhue02/final-project/blob/main/archive/human-heart-picture.jpg)
 
 ## Introduction
 
