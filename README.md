@@ -1,4 +1,4 @@
-# final-project-
+# final-project-group-9 (Heart Disease Prediction)
 ## Purpose
 
 The purpose of this project is to predict patients with high risk of heart disease
