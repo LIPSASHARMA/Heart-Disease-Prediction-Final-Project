@@ -7,7 +7,7 @@
 
 The purpose of this project is to predict patients with high risk of heart disease. 
 
-##Objective
+## Objective
 
 The objective of this project is to address the following questions through our analysis
 
@@ -43,7 +43,7 @@ Oldpeak: oldpeak = ST [Numeric value measured in depression]
 
 ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 
-HeartDisease: output class [1: high risk, 0: low risk]
+HeartDisease: output class [1: More risk, 0: Less risk]
 
 ## Entity Relationship Diagram
 
