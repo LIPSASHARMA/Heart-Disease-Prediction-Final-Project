@@ -30,35 +30,35 @@ The objective of this project is to address the following questions through our 
 
 The dataset is composed of 11 attributes(columns) and 918 observations
 
-Age: age of the patient [years]
+1.Age: age of the patient [years]
 
-Sex: sex of the patient [M: Male, F: Female]
+2.Sex: sex of the patient [M: Male, F: Female]
 
-ChestPainType: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
+3.ChestPainType: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
 
-RestingBP: resting blood pressure [mm Hg]
+4.RestingBP: resting blood pressure [mm Hg]
 
-Cholesterol: serum cholesterol [mm/dl]
+5.Cholesterol: serum cholesterol [mm/dl]
 
-FastingBS: fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
+6.FastingBS: fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
 
-RestingECG: resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
+7.RestingECG: resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
 
-MaxHR: maximum heart rate achieved [Numeric value between 60 and 202]
+8.MaxHR: maximum heart rate achieved [Numeric value between 60 and 202]
 
-ExerciseAngina: exercise-induced angina [Y: Yes, N: No]
+9.ExerciseAngina: exercise-induced angina [Y: Yes, N: No]
 
-Oldpeak: oldpeak = ST [Numeric value measured in depression]
+10.Oldpeak: oldpeak = ST [Numeric value measured in depression]
 
-ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
+11.ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 
-HeartDisease: output class [1: High risk, 0: Low risk]
+HeartDisease: output class [1/True: High risk, 0/False: Low risk]
 
 ## Dataset source: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?select=heart.csv
 
 ## Entity Relationship Diagram
 
-The Entity Relationship Diagram is created based on the heart information of the patient. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values.
+The Entity Relationship Diagram is created based on the heart information of the patients. We have added a column "PatientID" to the dataset to have a primary key as none of the columns in the dataset had unique values. 
 
 SQL ERD: https://github.com/akhue02/final-project-/blob/main/HeartData_ERD_FinalProject.sql
 
@@ -117,6 +117,10 @@ least_relevant
 
  ![Results](https://github.com/akhue02/final-project-/blob/main/archive/Results.png)
 
+
+#### Imbalance Check
+
+![ScreenShot](https://github.com/akhue02/final-project/blob/main/archive/data%20imbalance%20check.png)
  ## Summary
 
  Based on the analysis, we achieved high Precisiion, Recall and F1 scores which showcases that the model has almost been successful to achieve its intended target of 95% confidence interval. In this instance, the most importance score is the Recall score for Highrisk which is 0.93 which showcases that we had few wrongly diagnosed Actual High Risk cases which were Predicted low. Further evaluation of the dataset and more model choices needs to be made to achiveing our target. 
