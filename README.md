@@ -1,29 +1,34 @@
 
 
 <<<<<<< HEAD
-# final-project
+# Final-project
  
 =======
-# final-project-group-9 (Heart Disease Prediction)
+# Heart Disease Prediction - Group 9
 
 
 ![ScreenShot](https://github.com/akhue02/final-project/blob/main/archive/human-heart-picture.jpg)
 
 ## Introduction
 
-The term “heart disease” refers to several types of heart conditions. The most common type is Cardiovascular diseases (CVDs) which is the number one cause of death globally with 17.9 million death cases each year. CVDs are concertedly contributed by hypertension, diabetes, overweight and unhealthy lifestyles. CAD affects the blood flow to the heart. Decreased blood flow can cause a heart attack.
-## Purpose
+Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella include blood vessel diseases, such as coronary artery disease, heart rhythm problems (arrhythmias) and heart defects you’re born with (congenital heart defects), among others.
 
-The purpose of this project is to predict patients with high risk of heart disease. 
+The term “heart disease” is often used interchangeably with the term “cardiovascular disease”. Cardiovascular disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain (angina) or stroke. Other heart conditions, such as those that affect your heart’s muscles, valves or rhythm, also are considered forms of heart disease.
+Heart disease is one of the biggest causes of morbidity and mortality among the population of world. Prediction of cardiovascular disease is regarded as one of the most important subjects in the section of clinical data analysis. The amount of data in the healthcare industry is huge. Data mining turns the large collection of raw healthcare data into information that can help to make informed decisions and predictions.
 
+It is difficult to identify heart disease because of several contributory risk factors such as diabetes, high blood pressure, high cholesterol, abnormal pulse rate, and many other factors. Due to such constraints, scientists have turned towards modern approaches like Data Mining and Machine Learning for predicting the disease.
+
+The purpose of this analysis is to determine whether the patients are at 'High Risk' or 'Low Risk' of getting heart disease based on different parameters captured in an observation file. Heart disease prediction analysis using the Supervised ML model could assist experts to make quicker decisions and help to take precautionary measures like lifestyle changes to reduce the risk.
+
+## 
 ## Objective
 
-The objective of this project is to address the following questions through our analysis
+The objective of this project is to address the following question:
 
 - To determine what age group of people are most likely to have heart disease
 - To determine which gender is highly susceptible to heart diasease
 - To determine heart disease over chest pain type
-- To determine correlation between the factors
+- To determine the correlation between the factors
 - To determine MaxHR by age
 
 ### Attribute Information: 
@@ -82,7 +87,7 @@ As part of the Data Exploration, the following steps were carried out:
 #### Data Preprocessing
   The following steps were taken:
   * File was checked for any null values/empty columns
-   Features and Target variables were identified. For this project, the feature vairables were Age, Sex, ChestPainType, RestingBP, Cholesteroll, FastingBS, RestingECG, MaxHR,, ExerciseAngina, OldPeak, ST_Slope. Target variable was Heart Disease.
+   Features and Target variables were identified. For this project, the feature variables were Age, Sex, ChestPainType, RestingBP, Cholesterol, FastingBS, RestingECG, MaxHR,, ExerciseAngina, OldPeak, ST_Slope. Target variable was Heart Disease.
   * Object columns were identified and checked for any additional binning  requirements before conversion to numeric values using HotEncoder classifier.
 
    ```python
@@ -91,13 +96,13 @@ heart_cat=df.dtypes[df.dtypes=="object"].index.tolist()
 df[heart_cat].nunique()
   ``` 
 
-  * A HeatMap based on the corelation between various features and RandomForestClassifier was used to rank features based on their relevance. 
+  * A HeatMap based on the correlation between various features and RandomForestClassifier was used to rank features based on their relevance. 
 
  ![HeatMap](https://github.com/akhue02/final-project-/blob/main/archive/HeatMap_feature.png)
 
  ![Feature Importance](https://github.com/akhue02/final-project-/blob/main/archive/Feature_relevance.png)
 
- * Features with relevance percentage less than 1% were dropped from the analysis. 
+ * Features with a relevance percentage of less than 1% were dropped from the analysis. 
 
  ```python
 # choosing the columns with relevance below 1%
@@ -111,7 +116,7 @@ least_relevant
 
 #### Evaluation and Testing
 
-  * As part of the preliminary analysis, we used the RandomForestClassifier to calculate the accuracy score, confusion matrix an the classiication report. 
+  * As part of the preliminary analysis, we used the RandomForestClassifier to calculate the accuracy score, confusion matrix and the classification report. 
 
  ![AccuracyScore](https://github.com/akhue02/final-project-/blob/main/archive/accuracy_score.png)
 
@@ -123,5 +128,5 @@ least_relevant
 ![ScreenShot](https://github.com/akhue02/final-project/blob/main/archive/data%20imbalance%20check.png)
  ## Summary
 
- Based on the analysis, we achieved high Precisiion, Recall and F1 scores which showcases that the model has almost been successful to achieve its intended target of 95% confidence interval. In this instance, the most importance score is the Recall score for Highrisk which is 0.93 which showcases that we had few wrongly diagnosed Actual High Risk cases which were Predicted low. Further evaluation of the dataset and more model choices needs to be made to achiveing our target. 
+ Based on the analysis, we achieved high Precision, Recall and F1 scores which showcases that the model has almost been successful to achieve its intended target of 95% confidence interval. In this instance, the most importance score is the Recall score for High risk which is 0.93 which showcases that we had a few wrongly diagnosed Actual High Risk cases which were Predicted low. Further evaluation of the dataset and more model choices needs to be made to achieving our target. 
 
