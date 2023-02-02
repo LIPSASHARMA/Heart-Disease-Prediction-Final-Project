@@ -116,17 +116,31 @@ least_relevant
 
 #### Evaluation and Testing
 
-  * As part of the preliminary analysis, we used the RandomForestClassifier to calculate the accuracy score, confusion matrix and the classification report. 
+  * As part of the analysis, we used three models that is RandomForestClassifier, AdaBoostClassifier and Logistics Regression to calculate the accuracy score, confusion matrix and the classification report. The results of the analysis are as follows:
 
- ![AccuracyScore](https://github.com/akhue02/final-project-/blob/main/archive/accuracy_score.png)
+##### Random Forest Classifier
+ 
+![RandomForestClassifier]()
 
- ![Results](https://github.com/akhue02/final-project-/blob/main/archive/Results.png)
+##### AdaBoostClassifier
 
+![AdaBoostClassifier]()
+
+#### Logistics Regression
+
+![Logistics Regression]()
 
 #### Imbalance Check
 
 ![ScreenShot](https://github.com/akhue02/final-project/blob/main/archive/data%20imbalance%20check.png)
+
+
+
  ## Summary
 
- Based on the analysis, we achieved high Precision, Recall and F1 scores which showcases that the model has almost been successful to achieve its intended target of 95% confidence interval. In this instance, the most importance score is the Recall score for High risk which is 0.93 which showcases that we had a few wrongly diagnosed Actual High Risk cases which were Predicted low. Further evaluation of the dataset and more model choices needs to be made to achieving our target. 
+ As part of the evaluation for this dataset, we carried out the analysis using three models that is RandomForestClassifier, LogisticsRegression and AdaBoostClassifier
+ 
+ ![Results Summary]()
+
+ Based on the analysis, we have achieved high achieved high Precision, Recall and F1 scores which showcases that the model has almost been successful to achieve its intended target of 95% confidence interval. In this instance, the most importance score is the Recall score for High risk which is 0.93 which showcases that we had a few wrongly diagnosed Actual High Risk cases which were Predicted low. Further evaluation of the dataset and more model choices needs to be made to achieving our target. 
 
