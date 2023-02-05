@@ -142,6 +142,6 @@ least_relevant
  
  ![Results Summary](https://github.com/akhue02/final-project/blob/main/archive/Overall_summary.png)
 
- Based on the analysis for the given dataset, we have achieved good Precision, Recall and F1 scores for all the models and the highest in this instance was for the RandomForestClassifier model. The most importance score is the Recall score for High risk which is 0.93 which showcases that we had a few wrongly diagnosed Actual High Risk cases which were Predicted low. 
+ Based on the analysis for the given dataset, we have achieved good Precision, Recall and F1 scores for all the models and the highest in this instance was for the RandomForestClassifier model. The most importance score is the Recall score for High risk that is 0.93 which showcases that we had a few wrongly diagnosed Actual High Risk cases which were Predicted low.
  
 
