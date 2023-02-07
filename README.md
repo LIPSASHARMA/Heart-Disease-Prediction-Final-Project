@@ -18,9 +18,8 @@ Heart disease is one of the biggest causes of morbidity and mortality among the 
 
 It is difficult to identify heart disease because of several contributory risk factors such as diabetes, high blood pressure, high cholesterol, abnormal pulse rate, and many other factors. Due to such constraints, scientists have turned towards modern approaches like Data Mining and Machine Learning for predicting the disease.
 
-The purpose of this analysis is to determine whether the patients are at 'High Risk' or 'Low Risk' of getting heart disease based on different parameters captured in an observation file. Heart disease prediction analysis using the Supervised ML model could assist experts to make quicker decisions and help to take precautionary measures like lifestyle changes to reduce the risk.
-
-## 
+The purpose of this analysis is to determine whether the patients are at 'More Risk' or 'Less Risk' of getting heart disease based on different parameters captured in an observation file. Heart disease prediction analysis using the Supervised ML model could assist experts to make quicker decisions and help to take precautionary measures like lifestyle changes to reduce the risk.
+ 
 ## Objective
 
 The objective of this project is to address the following question:
@@ -57,7 +56,7 @@ The dataset is composed of 11 attributes(columns) and 918 observations
 
 11.ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 
-HeartDisease: output class [1/True: High risk, 0/False: Low risk]
+HeartDisease: output class [1/True: More risk, 0/False: Less risk]
 
 ## Dataset source: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?select=heart.csv
 
@@ -142,6 +141,6 @@ least_relevant
  
  ![Results Summary](https://github.com/akhue02/final-project/blob/main/archive/Overall_summary.png)
 
- Based on the analysis for the given dataset, we have achieved good Precision, Recall and F1 scores for all the models and the highest in this instance was for the RandomForestClassifier model. The most importance score is the Recall score for High risk that is 0.93 which showcases that we had a few wrongly diagnosed Actual High Risk cases which were Predicted low.
+ Based on the analysis for the given dataset, we have achieved good Precision, Recall and F1 scores for all the models and the highest in this instance was for the RandomForestClassifier model. The most importance score is the Recall score for More risk that is 0.93 which showcases that we had a few wrongly diagnosed Actual More Risk cases which were Predicted low.
  
 
