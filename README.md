@@ -1,9 +1,4 @@
 
-
-<<<<<<< HEAD
-# Final-project
- 
-=======
 # Heart Disease Prediction - Group 9
 
 
@@ -81,7 +76,8 @@ Based on our Tableau file, we have 3 main findings:
 3. Females aged 50 and 60 have the highest possibility to suffer from heart disease.
 
 Link: https://public.tableau.com/app/profile/manish.thapa4247/viz/Heartrisk/HeartRisk_1?publish=yes
-updated Link: https://public.tableau.com/app/profile/jingwen.zhou/viz/Heartrisk_16757344537410/Dashboard2
+
+Additional visualization Link: https://public.tableau.com/app/profile/jingwen.zhou/viz/Heartrisk_16757344537410/Dashboard2
 
 ### Data Exploration
 
