@@ -70,7 +70,10 @@ SQL ERD: https://github.com/akhue02/final-project-/blob/main/HeartData_ERD_Final
 ![ScreenShot](https://github.com/akhue02/final-project/blob/main/ERD_PostgreSQL_Snapshot.png)
 
 
-### Tableau 
+Link to AWS RDS: heart-db-grp9.crfxcwvfn3mo.us-east-2.rds.amazonaws.com
+
+
+### Data Visualization
 
 Based on our Tableau file, we have 3 main findings: 
 1. People aged between 50 and 60 are more likely to have heart disease; 
