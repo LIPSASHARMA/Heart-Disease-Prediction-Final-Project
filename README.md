@@ -144,3 +144,6 @@ least_relevant
  Based on the analysis for the given dataset, we have achieved good Precision, Recall and F1 scores for all the models and the highest in this instance was for the RandomForestClassifier model. The most importance score is the Recall score for More risk that is 0.93 which showcases that we had a few wrongly diagnosed Actual More Risk cases which were Predicted low.
  
 
+## Presentation 
+ ![Powerpoint Slide](https://github.com/akhue02/final-project/blob/main/Presentation1.pptx)
+ 
